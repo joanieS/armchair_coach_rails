@@ -29,7 +29,7 @@ class PhrasesController < ApplicationController
 
     respond_to do |format|
       if @phrase.save
-        format.html { redirect_to @phrase, notice: 'Phrase was successfully created.' }
+        format.html { redirect_to "/phrases/new", notice: 'Phrase was successfully created.' }
         format.json { render :show, status: :created, location: @phrase }
       else
         format.html { render :new }

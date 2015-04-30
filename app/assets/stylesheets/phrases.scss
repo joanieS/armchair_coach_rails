@@ -1,3 +1,17 @@
 // Place all the styles related to the phrases controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.background.phrases{
+    background-image: image-url("background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+
+.form{
+	position: absolute;
+	top: 10%;
+	left: 40%;
+}
